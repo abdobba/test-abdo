@@ -8,6 +8,9 @@ export default function MyFirstComponent() {
       <h4>This is my first component</h4>
 
       <button className="bg-red-600 py-2 px-4 mt-5">Click</button>
+            <button className="bg-red-600 py-2 px-4 mt-5">Click</button>
+      <button className="bg-red-600 py-2 px-4 mt-5">Click</button>
+
     </div>
   );
 }
