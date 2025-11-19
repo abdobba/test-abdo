@@ -12,6 +12,9 @@ function App() {
         <h1 className='text-5xl font-bold underline '>
           hellqo world
         </h1>
+        <h3>
+          This is my first React component!
+        </h3>
       </div>
       <MyFirstComponent />
     </>
