@@ -6,7 +6,7 @@ export default function MyFirstComponent() {
         <h1>
           Abdulrahman 
         </h1>
-        <button className="py-1.5 px-2 bg-amber-400 cursor-pointer"  onClick={SayHello} > click Me </button>
+        <button className={"py-1.5 px-2 bg-amber-400 cursor-pointer btn "}  onClick={SayHello} > click Me </button>
       </div>
     </div>
   );
