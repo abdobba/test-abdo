@@ -1,21 +1,24 @@
-
 import './App.css'
-import MyFirstComponent from "./MyFirstComponet.jsx"
-import Component from './Componet.jsx'  
+import Herader from './hrader.jsx'
+import SideBar from './side-ber.jsx'
+import BtnDev from './btndev.jsx'
+
 function App() {
-  
-
   return (
-  
-    <>
-     <MyFirstComponent />
+    <div className="">
+      <Herader />
+      <div className="flex gap-4 justify-center items-center">
+        <div className="flex flex-col gap-4">
+          <SideBar />
+          <SideBar />
+        </div>
 
-     <MyFirstComponent />
-    </>
+        {/* <BtnDev /> */}
+        <BtnDev />
+      </div>
+    </div>
   )
 }
-
-
 
 export default App
 
